@@ -1,27 +1,51 @@
-# HabitCraft
+# Habit Tracker App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+## Overview
 
-## Development server
+The Habit Tracker App is a simple and intuitive application designed to help users build and track their daily habits. This README provides an overview of the app's features and the technologies used in its development.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+### Creating New Habits
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- To create a new habit, simply click on the plant icon (🌱) in the app interface.
+- Provide a name and description for your habit, and it will be added to your list of habits.
 
-## Build
+### Completing Habits
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- To mark a habit as completed, click on the "Complete" button (✅) next to the habit.
+- The completed habit will disappear from your list, giving you a sense of accomplishment.
 
-## Running unit tests
+### Restoring All Habits
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- If you want all your hidden habits to reappear, click on the "Reload" icon (🔄).
+- This action brings back all your habits for easy access and tracking.
 
-## Running end-to-end tests
+### Permanent Deletion
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- To permanently delete a habit, click on the red icon (🟥).
+- This action will remove the habit from your list, and it cannot be undone.
 
-## Further help
+## Technologies Used
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **Angular**: The app is built using the Angular framework, providing a robust and structured development environment.
+
+- **HTML/CSS**: HTML and CSS are used for structuring the app's frontend and styling it with a teal-themed, game-like appearance.
+
+- **Bootstrap**: Bootstrap is utilized for responsive design and grid layout.
+
+- **JavaScript/TypeScript**: JavaScript and TypeScript are used for interactivity and logic within the app.
+
+## Getting Started
+
+1. Clone this repository to your local machine.
+2. Run `npm install` to install the necessary dependencies.
+3. Run `ng serve` to start a development server and view the app in your browser.
+
+## Author
+
+- Harsh Satone
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
