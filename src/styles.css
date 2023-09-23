@@ -1,0 +1,114 @@
+body{
+background-color: whitesmoke;
+}
+
+.topbar{
+    width: 100%;
+    background-color:rgba(0, 128, 128, 0.901);
+    font-family: Garamond, serif;
+    color: rgba(255, 255, 255, 0.979);
+    text-align: center;
+    font-size: 40px;
+    padding: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.completed{
+    background-color: teal;
+    color: white;
+}
+
+.habit-card {
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.habit-card-body {
+    padding: 20px;
+}
+
+.habit-card {
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.inputs{
+    width: 50%;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .inputs {
+        width: 100%;
+    }
+}
+
+.inp{
+margin-bottom: 15px;
+}
+  
+.add{
+    background-color: teal;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.empty{
+    font-size: 30px;
+    font-family: Garamond ,serif;
+    margin-top: 30px;
+    margin: 0 auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.del{
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+}
+
+
+.show{
+    margin: 0 auto;
+    background-color: #F5FCCD;
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    border-radius: 50%;
+    margin-left: calc(50% - 85px);
+}
+
+.reload{
+    background-color: #F5FCCD;
+    color: rgb(102, 151, 29);
+    font-size: 30px;
+    padding:20px 28px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.habit-container{
+    text-align: center;
+}
+
+.links{
+    cursor: pointer;
+    display: flex;
+}
+
+.linkedin{
+    text-decoration: none;
+    color: rgb(143, 246, 246);
+}

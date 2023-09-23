@@ -1,0 +1,10 @@
+<div class="card habit-card">
+    <div class="card-body habit-card-body">
+        <h5 class="card-title">{{i+1}}. {{habit.habit}} </h5>
+        <p class="card-text">{{habit.desc}}.</p>
+        <div class="buttons">
+            <button class="btn completed" (click)="onClick(habit)">Completed</button>
+            <button class="del" (click)="onClickd(habit)">🟥</button>
+        </div>
+    </div>
+</div>
